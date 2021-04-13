@@ -1,0 +1,118 @@
+.about-me {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 110px;
+  padding-top: 110px;
+
+  &__info-container {
+    margin-bottom: 65px;
+
+    &--profession {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #000000;
+      margin-bottom: 23px;
+    }
+
+    &--name {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 89px;
+      color: #000000;
+    }
+
+    &--description {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #595959;
+      margin-top: 24px;
+      width: 415px;
+    }
+  }
+  &__projects {
+    margin-bottom: 55px;
+
+    &--style {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    &--item {
+      font-weight: 700;
+      color: #000000;
+      margin-left: 17px;
+    }
+
+    &--link {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #595959;
+    }
+
+    &--dots {
+      color: #d3d3d3;
+    }
+  }
+}
+
+.company__profession {
+  margin-bottom: 25px;
+
+  &-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  &-style {
+    color: #ff7315;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 5px;
+  }
+
+  &-data-style {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #9f9f9f;
+  }
+  &-list {
+    width: 535px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.company-three {
+  margin-bottom: 55px;
+}
+
+.education {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+
+  &__decription {
+    color: #ff7315;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  &__professional {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}

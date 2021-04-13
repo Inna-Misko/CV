@@ -9,10 +9,13 @@ body {
 
 .main-container {
   background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
+  -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar {
@@ -248,4 +251,4 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-}
+}/*# sourceMappingURL=style.css.map */
